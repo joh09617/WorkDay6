@@ -27,20 +27,22 @@ Partial Class Form1
         '
         'btnPopulation
         '
-        Me.btnPopulation.Location = New System.Drawing.Point(117, 76)
+        Me.btnPopulation.Location = New System.Drawing.Point(78, 49)
+        Me.btnPopulation.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.btnPopulation.Name = "btnPopulation"
-        Me.btnPopulation.Size = New System.Drawing.Size(246, 107)
+        Me.btnPopulation.Size = New System.Drawing.Size(164, 70)
         Me.btnPopulation.TabIndex = 0
         Me.btnPopulation.Text = "Determine When World Population Was Less Than 6 Million"
         Me.btnPopulation.UseVisualStyleBackColor = True
         '
         'Form1
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(489, 275)
+        Me.ClientSize = New System.Drawing.Size(326, 179)
         Me.Controls.Add(Me.btnPopulation)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
+        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Name = "Form1"
         Me.Text = "World Population"
         Me.ResumeLayout(False)
